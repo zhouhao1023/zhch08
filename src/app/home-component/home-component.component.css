@@ -1,0 +1,38 @@
+@import 'https://fonts.googleapis.com/css?family=Rajdhani:700';
+body {
+    margin: 0;
+    background: #73CDE7;
+}
+@-webkit-keyframes background {
+    from {
+        background-position: 0 0%;
+    }
+    to {
+        background-position: 0 -300px;
+    }
+}
+@keyframes background {
+    from {
+        background-position: 0 0%;
+    }
+    to {
+        background-position: 0 -300px;
+    }
+}
+h2 {
+    font-size: 200px;
+    font-family: 'Rajdhani', sans-serif;
+    background: url(http://html5book.ru/wp-content/uploads/2016/08/bubbles.png) repeat #011F42;
+    background-size: 300px auto;
+    -webkit-text-fill-color: transparent;
+    
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-animation: background 12s infinite linear;
+    animation: background 12s infinite linear;
+    margin-left: 10px;
+}
+
+.aaa{
+    margin: 10rem;
+}

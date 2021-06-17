@@ -1,0 +1,136 @@
+.login-content{
+    height: 93vh;
+}
+
+
+form{
+    width: 35rem;
+}
+
+
+.aaa{
+    background:black;
+    background-size: cover;
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 40px;
+    text-shadow: .2rem 0rem .5rem #101c1d,
+    -.2rem 0rem .5rem rgb(12, 5, 5),
+    0rem .2rem .5rem #102224,
+    0rem -.2rem .5rem rgb(14, 7, 7);
+
+} 
+
+
+button {
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+.btn{   
+    width: 559.99px; 
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: #000000;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+} 
+
+
+.btn:hover {
+    border-radius: 5px;
+    color: 	#FFFFFF;
+    background: 	#B0C4DE;
+    box-shadow: 0 0 5px 0 	#B0C4DE,
+        0 0 25px 0 	#B0C4DE,
+        0 0 50px 0 	#B0C4DE,
+        0 0 100px 0 	#B0C4DE;
+    transition: all 1s linear;
+    text-shadow: .2rem 0rem .5rem #101c1d,
+    -.2rem 0rem .5rem rgb(12, 5, 5),
+    0rem .2rem .5rem #102224,
+    0rem -.2rem .5rem rgb(14, 7, 7);
+}
+
+.btn>span {
+    position: absolute;
+}
+
+.btn>span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    background: -webkit-linear-gradient(left, transparent, 	#B0C4DE);
+    left: -100%;
+    top: 0px;
+    animation: line1 1s linear infinite;
+}
+
+@keyframes line1 {
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.btn>span:nth-child(2) {
+    width: 2px;
+    height: 100%;
+    background: -webkit-linear-gradient(top, transparent, 	#B0C4DE);
+    right: 0px;
+    top: -100%;
+    animation: line2 1s 0.25s linear infinite;
+}
+
+@keyframes line2 {
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.btn>span:nth-child(3) {
+    width: 100%;
+    height: 2px;
+    background: -webkit-linear-gradient(left, 	#B0C4DE, transparent);
+    left: 100%;
+    bottom: 0px;
+    animation: line3 1s 0.75s linear infinite;
+}
+
+@keyframes line3 {
+
+    50%,
+    100% {
+        left: -100%;
+    }
+}
+
+.btn>span:nth-child(4) {
+    width: 2px;
+    height: 100%;
+    background: -webkit-linear-gradient(top, transparent, 	#B0C4DE);
+    left: 0px;
+    top: 100%;
+    animation: line4 1s 1s linear infinite;
+}
+
+@keyframes line4 {
+
+    50%,
+    100% {
+        top: -100%;
+    }
+}
+
+
+
+
